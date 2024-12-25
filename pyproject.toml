@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "graph_dag_flow"
+version = "0.1.0"
+description = ""
+authors = ["prayfff <prayfff@gmail.com>"]
+readme = "README_zh.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.10.4"
+networkx = "^3.4.2"
+matplotlib = "^3.10.0"
+mermaid-py = "^0.7.0"
+setuptools = "^75.6.0"
+pipdeptree = "^2.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
